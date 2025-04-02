@@ -1,4 +1,4 @@
-The Cryptocurrency Management System is a platform that makes buying, selling, and 
+Hello, I am new to programming and GitHub.The Cryptocurrency Management System is a platform that makes buying, selling, and 
 managing cryptocurrencies easy and secure. It has three types of users: Admins, who 
 manage users and transactions; Brokers, who help clients trade and manage 
 cryptocurrencies; and Clients, who can buy, sell, and track their investments. This system 
