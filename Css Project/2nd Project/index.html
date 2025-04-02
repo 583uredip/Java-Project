@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carusal</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html
+        {
+            font-size: 62.5%;
+        }
+
+        body{
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        
+        .container-img
+        {
+           width: 60vw;
+            height:50rem;
+            
+            border-radius: 1rem;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            background-image: url(krisna1.jpg);
+            background-size: cover;
+            animation: gallery 20s linear infinite;
+           
+        }
+        @keyframes gallery
+             {
+                0%
+                 {
+                background-image: url('krisna1.jpg');
+                }
+
+            20% 
+            {
+                background-image: url('kisna4.jpg');
+            }
+
+            40% 
+            {
+                background-image: url('kisna5.jpg');
+            }
+
+            60% 
+            {
+                background-image: url('krisna2.jpg');
+            }
+
+            80% 
+            {
+                background-image: url('krisna3.jpg');
+            }
+
+            100% 
+            {
+                background-image: url('krisna1.jpg');
+            }
+        }
+
+        h1{
+            
+            font-size: 30px;
+            color: chocolate;
+        }
+
+        .hi{
+            color:chartreuse;
+        }
+
+        body{
+            background-color: black;
+        }
+            
+    </style>
+    
+</head>
+<h1>Joy Sri Kisna</h1>
+<marquee><h1 class="hi">Hore Krisno Hore Ramo!!</h1></marquee>
+<body>
+   <div class="container-img"></div> 
+   
+</body>
+</html>

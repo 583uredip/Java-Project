@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        *{
+          margin: 0;
+          padding:0;
+          box-sizing: border-box;
+          font-family:"urbanist";
+        }
+        body
+        {
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: #191825;
+        }
+        h1
+        {
+            text-align: center;
+            color:#fff;
+            font-weight: bold;
+            font-size: 96px;
+            text-shadow: -1px 2px 3px rgba(236,247,76,0.2);
+            position: relative;
+        }
+        h1::before
+        {
+            content: "Welcome...";
+            position: absolute;
+            top:0;
+            left:0;
+            width: 10%;
+            color: #e9b824;
+            text-transform: uppercase;
+            font-size: 96px;
+            border-right: 2px solid #e9b824;
+            overflow: hidden;
+            animation: textrevel 2s linear infinite;
+        }
+        @keyframes textrevel
+        {
+            0%
+            {
+                width: 10%;
+            }
+            50%
+            {
+                width: 100%;
+            }
+            100%
+            {
+                width: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME ...</h1>
+</body>
+</html>
